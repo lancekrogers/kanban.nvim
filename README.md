@@ -48,6 +48,10 @@ and open kanban to enter `:KanbanOpen <file_path>`
 
 All setup options are [here](./lua/kanban/ops.lua).
 
+`:KanbanArchiveBoard <file_path>`
+Archieve's a board, appending the date to the name.  A new board with the base name will be created and task from TODO and Work in progress will be carried over.
+
+
 ### Optional telescope search
 If you installed telescope.nvim, you can search kanban project files by `KanbanOpen telescope` command.
 
